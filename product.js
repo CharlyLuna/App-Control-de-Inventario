@@ -1,6 +1,6 @@
 export default class Product {
   constructor(code, name, quantity, cost) {
-    this._code = code.toUpperCase();
+    this._code = code;
     this._name = name.toUpperCase();
     this._quantity = quantity;
     this._cost = cost;
